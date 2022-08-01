@@ -1,14 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="Portfolio.css">
     <title> Portfolio </title>
 </head>
 
+<div class="header-section">
 <body>
 <h1>Hello, my name is Ronell Austin. I'm a hardworker who's always striving for the best.</h1>
 <p>This website was designed through HTML and showcases the various skillsets that I have when it comes to my portfolio</p>
-<img src="" style="width"
+<img src="ronellpic.jpg" style="width: 430px" <br>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</div>
 
+<div class="skills-section">
 <h1> <b>List of key skills </b> </h1>
 <ul>HTML</ul>
 <ul>CSS</ul>
@@ -23,21 +64,24 @@
 <h1><b>Career Trajectory</b></h1>
 <p> In two years I see myself working at a tech agency such as Google or Microsoft, building up my technological skillset</p>
 <p> More excitedly, in five years I see myself publishing my very own fictional novel series. These goals require hardwork and dedication, and most importantly, passion.</p>
+</div>
 
+<div class="edu-section">
 <h2>Educational achievements</h2>
 
-<table>
+<table> 
     <tr>
-        <th>3.6 overall GPA @ MSU</th>
+        <th>3.6 overall GPA @ MSU</th> 
         <th>Dean's List recipient </th>
     </tr>
     <tr>
     <th>National Society Inducted Member</th>
     <th>Scholarship Recipient</th>
 </tr>
-
 </table>
+</div>
 
+<div class="contact-section">
 <h1> Contact Me! </h1>
 <form>
     First name:
@@ -48,8 +92,9 @@
     <input type="text"> 
     <input type="submit" value="Submit">
     </form>    
-
-
+<br>
+    <button type="button"> Submit </button>
+</div>
 
 </body>
 
